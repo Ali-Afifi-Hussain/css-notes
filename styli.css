@@ -1,0 +1,22 @@
+body {
+  
+  background-image: url(photo_5961036963714809834_y.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+h1{
+  background: linear-gradient(to right,#ebcdcd, #7878c6,gold);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 20px 30px;
+}
+h2{
+  background: linear-gradient(to left, #6f6f98,rgb(132, 230, 20));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:500px 80px ;
+  background-position: 20px 90px;
+}
