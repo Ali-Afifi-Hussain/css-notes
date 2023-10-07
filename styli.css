@@ -1,3 +1,37 @@
 p {
-    border-style: dashed;
+  font-size: 16px;
+  border-style: solid;
+  border-color: rgb(122, 98, 200);
+  padding: 50px;
+  border-radius:15px;
 }
+.box {
+    border: 5px solid;
+    border-radius: 50%;
+    overflow: scroll;
+    overflow: hidden;
+    border: inset;
+    border: outset;
+    border-width: 5px;
+    border-color: gold;
+    margin: 70px;
+    padding: 50px;
+  }
+  .header1{
+    border-left-style: solid ;
+    border-right-style: dotted ;
+    border-bottom-style: solid ;
+    border-top-style: solid ;
+    border-bottom-color:gold;
+    padding: 12px;
+    margin: 30px;
+    
+
+  }
+  .header1box{
+    text-align: center;
+    border-radius: 50px;
+    border-style:solid;
+    
+
+  }
