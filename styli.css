@@ -20,7 +20,7 @@
   clear: both;   /*this cleat the float and make the part we set clear to both to clear wrapping the other floating item 
   and their are 3 possible values we use clear : 1-left  2-right  2-both 
   clear:left stop the element to wrap the floating content in the left side and 
-  clear:right stop the element to wrap the floating content in the right side and 
+  clear:right stop the element to wrap the floating content in the right side and  
   clear:left stop the element to wrap the floating content in the both sides
    */
 }
