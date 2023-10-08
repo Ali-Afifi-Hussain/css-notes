@@ -1,0 +1,68 @@
+body {
+  background-color: bisque;
+}
+.box1 {
+  border-style: solid;
+  background-color: hsla(240, 50%, 65%, 0.679);
+  width: 250px;
+  margin-top: 30px ;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 99px;
+  padding: 3px ;
+ 
+}
+.box2 {
+  border-style: solid;
+  background-color: hsla(106, 69%, 52%, 0.679);
+  width: 250px;
+  border-radius: 50%;
+  padding: 35px;
+  margin:0% 50% 0% /* 50% */;
+}
+.box3 {
+  border-style: solid;
+  background-color: hsla(135, 48%, 29%, 0.679);
+  width: 250px;
+  border-radius: 50%;
+  margin: 50%;
+  padding: 35px;
+}
+.box4 {
+  border-style: solid;
+  background-color: hsla(229, 50%, 24%, 0.679);
+  width: 250px;
+  border-radius: 50%;
+  margin: 30px 15px;
+  padding: 35px;
+}
+/* we can easily set margin from each direction using margin-<the direction>
+and the unit is px or easily the percentage of the screen that we want to use
+or we can put margin then put four values directily as margin: #px #% #px #px  
+or put three values as margin: #px #px #px and the fourth value will be the same value of the opposite side in the screen and the first value id for the top and the second is for the right and the third is for bottom and the fourth is for the left 
+the remeber that easily is to think that the patter id clock wise starting from the top 
+
+
+                top
+                 1
+          left   1    right
+
+              bottom
+
+margin :top right bottom  left;
+margin :top right bottom  ;
+
+here the left value is the same as the right value
+
+margin :top right ;
+
+here the left value is the same as the right value and the bottom value is the same as the top value
+
+margin :top ;
+
+here the left value is the same as the right value that is 0px 
+and the bottom value is the same as the top value
+
+margin: #px ;
+this value will be set to all directions
+*/
