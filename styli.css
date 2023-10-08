@@ -1,0 +1,26 @@
+.box1{
+  border: 1px solid gold;
+  width: 300px;
+  background-color: hsla(271, 76%, 53%, 0.491);
+  float: left;
+  }
+  .box2{
+  border: 1px solid gold;
+  width: 300px;
+  background-color: hsla(157, 76%, 53%, 0.491);
+  float: left;
+  }
+  .box3{
+  clear: right;
+  }
+  .box4{
+  clear: left;
+  }
+  .box4{
+  clear: both; /*this cleat the float and make the part we set clear to both to clear wrapping the other floating item
+  and their are 3 possible values we use clear : 1-left 2-right 2-both
+  clear:left stop the element to wrap the floating content in the left side and
+  clear:right stop the element to wrap the floating content in the right side and
+  clear:left stop the element to wrap the floating content in the both sides
+  */
+  }
