@@ -1,0 +1,36 @@
+.outerbox{
+position: relative;
+top:-10px;
+left: 240px;
+height: 250px;
+width: 300px;
+}
+.box1 {
+  border: 1px solid rgb(154, 208, 29);
+  width: 250px;
+  height: 250px;
+  background-color: skyblue;
+  position: sticky;
+  top: 30px;
+  bottom: 70px;
+  margin: 10px;
+}
+/* open .inespect to see the shape of boxs especially box 1 */
+.box2 {
+  border: 1px solid rgb(154, 208, 29);
+  width: 100px;
+  height: 100px;
+  background-color: rgb(162, 235, 135);
+  position: absolute;
+  top: 75px;
+  right: 75px;
+}
+.text{
+    height: 50px;
+    position: sticky;
+    top: 280px;
+    bottom: 0px;
+}
+.text p{
+position: absolute;
+}
