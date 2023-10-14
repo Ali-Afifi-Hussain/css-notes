@@ -1,0 +1,59 @@
+#box1 {
+  width: 250px;
+  height: 250px;
+  font-size: 250px;
+  text-align: center;
+  background-color: tomato;
+  /*
+  animation-name: lolo;
+  animation-direction: normal;
+animation-timing-function: ease-in-out;
+ the animation take 5s to performe the hole animation 
+animation-duration: 5s;
+ it begin after 3 seconds 
+animation-delay: 3s; */
+  animation: lolo 5s linear 0s running infinite;
+}
+
+@keyframes lolo {
+  0% {
+    height: 0px;
+    width: 0px;
+    margin: 0px 0% 0% 0%;
+    transform: scale(0, 0) rotateZ(0deg);
+    color: black;
+    opacity: 0%;
+  }
+  25% {
+    width:100px;
+    height: 100px;
+    margin: 125px 0% 0% 25%;
+    transform: scale(0.5, 0.5) rotateZ(90deg);
+    color: rgb(211, 67, 67);
+    opacity: 50%;
+  }
+  50% {
+    width: 200px;
+    height: 200px;
+    margin: 250px 0% 0% 50%;
+    color: rgb(85, 66, 149);
+    transform: scale(1, 1) rotateZ(180deg);
+    opacity: 100%;
+  }
+  75% {
+    width: 100px;
+    height: 100px;
+    margin: 375px 0% 0% 25%; 
+    transform: scale(0.5, 0.5) rotateZ(270deg);
+    color: rgb(27, 240, 56);
+    opacity: 50%;
+  }
+  100% {
+    width: 0px;
+    height: 0px;
+    margin: 500px 0% 0% 0%; 
+    transform: scale(0, 0) rotateZ(360deg);
+    color: black;
+    opacity: 0%;
+  }
+}
