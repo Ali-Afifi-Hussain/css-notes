@@ -1,0 +1,38 @@
+#box1 {
+  border: 3px solid;
+  height: 250px;
+  width: 250px;
+  background-color: aquamarine;
+  text-align: center;
+  align-items: center;
+  font-size: 200px;
+  transform: translateX(-50px);
+  transform: translateY(200px);
+  transform: translate(200px, 50px);
+  transform: rotateX(60deg);
+  transform: rotateY(60deg);
+  transform: rotateZ(60deg);
+  transform: scaleX(
+    2
+  ); /* 2 --->> 200 %  and 1 is 100% or we can say it is the original scale*/
+  transform: scaleY(1.5);
+  transform: scale(2, 1.5); /*this combine them both*/
+  transform: skewX(30deg);
+  transform: skewY(30deg);
+  transform: skew(30deg, 30deg);
+  transform: matrix(1.5, 1,1, 1.4, 50, 40);
+}
+/* if we say  translateX then translateY then the activated line will be the second one according to the universal rule that say 
+if we set a specific value to any property then if we change it later then the properity will over written 
+so we cannot say transform then transform then we wait for combination of them no that will not happen 
+but if we want to comine the two trans we will use another property
+*/
+/* matrix(a, b, c, d, e, f)
+Here's what they're for.
+
+a, d
+The arguments a and d represent how the element is scaled in the x and y direction respectively (just like in scale(a, d)).
+b, c
+The arguments b and c represent how the element is skewed (just like in skew(b, c)).
+e, f
+The arguments e and f represent how the element is translated in the x and y direction respectively (just like in translate(e, f)). */
