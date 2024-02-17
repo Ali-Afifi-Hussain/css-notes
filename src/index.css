@@ -4,3 +4,6 @@ body{
     padding:0;
 
 }
+.cardcontainer > img{
+height:200px;
+}

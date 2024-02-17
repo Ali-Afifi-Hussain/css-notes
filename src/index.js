@@ -4,13 +4,13 @@ import ReactDOM  from 'react-dom';
 // import Navbar from './Navbar';
 // import Content from './Content';
 import "./index.css";
+import Card from './Card';
 function App(){
 return(
     <div>
-
-        
+        <Card/>
     </div>
 )
 }
 
-ReactDOM.render(<App/>,document.getElementById("root2"))
+ReactDOM.render(<App/>,document.getElementById("root1"))
