@@ -4,7 +4,9 @@ import { Header } from './Header';
 import "./index.css";
 function App(){
 return(
-    <div></div>
+    <div>
+        {Header}
+    </div>
 )
 }
 ReactDOM.render(<App/>,document.getElementById("root1"))
