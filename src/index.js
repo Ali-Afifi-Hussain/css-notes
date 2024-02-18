@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM  from 'react-dom';
-// import { Header } from './Header';
-// import Navbar from './Navbar';
-// import Content from './Content';
+import Joke from './joke';
+import {joketext} from './joketext';
 import "./index.css";
 import Card from './Card';
 function App(){
+    const jokeelements=joketext.map((item)=>{
+        return(
+            <Joke prop={item}/>
+        )
+    })
 return(
     <div className='app'>
+
+        {jokeelements}
+    </div>
+)
+}
+
         <Card
         img="./olla.png"
         imgalt="olla"
