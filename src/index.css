@@ -2,8 +2,48 @@ body{
     height:100vh;
     margin:0;
     padding:0;
-
+    background-image: url("../public/logo192.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(233, 233, 229);
 }
-.cardcontainer > img{
+.app{
+    display :grid;
+    grid-template-columns: 1fr 1fr;;
+    
+}
+.cardcontainer>div > img{
 height:200px;
+border-radius:30px;
+width:300px;
+padding-left:20px;
+padding-top:12px
+}
+.cardcontainer >div {
+    margin-left:25%;
+    margin-right:25%;
+    width:350px;
+    background-color: rgb(247, 242, 236);
+    border-radius: 20px;
+    box-shadow: 2px 3px 6px ;    
+}
+.cardcontainer >div :hover{
+    background-color: rgb(103, 103, 211);
+}
+
+.cardcontainer{
+    margin-top:20px;
+    gap:15px;
+    display:flex;
+}
+.phone{
+    color:rgb(206, 61, 222);
+    font-size:large;
+    font-weight: bold;
+    padding-left:10px;
+}
+.email{
+    font-style: italic;
+    color:rgb(63, 82, 206);
+    padding-left:10px;
 }

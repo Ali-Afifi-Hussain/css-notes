@@ -1,10 +1,12 @@
 import React from "react";
-export default function Card(){
+export default function Card(prob){
     return(
         <div className="cardcontainer">
-            <img src="./ali.png" alt="ali"/>
-            <p>phone: 0100002022020</p>
-            <p>email:aliax@gmail.com</p>
+            <div >
+                <img src={prob.img} alt={prob.imgalt}/>
+                <p className="phone">{prob.phone}</p>
+                <p className="email">{prob.email}</p>
+            </div>
         </div>
     )
 }
