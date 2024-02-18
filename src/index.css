@@ -4,3 +4,29 @@ body{
     padding:0;
 
 }
+.app{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.punchline{
+    color:red;
+    display: flex;
+    justify-content: center;
+}
+.setup{
+    color:blue;
+    display: flex;
+    justify-content: center;
+}
+.fun{
+    color:rgb(119, 255, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.jokecontainer{
+    margin-top: 50px;
+    margin-left: 250px;
+    background-color: yellowgreen;
+    width:300px;
+}

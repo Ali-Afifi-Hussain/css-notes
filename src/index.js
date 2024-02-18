@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM  from 'react-dom';
-// import { Header } from './Header';
-// import Navbar from './Navbar';
-// import Content from './Content';
+import Joke from './joke';
+import {joketext} from './joketext';
 import "./index.css";
 function App(){
+    const jokeelements=joketext.map((item)=>{
+        return(
+            <Joke prop={item}/>
+        )
+    })
 return(
-    <div>
-
-        
+    <div className='app'>
+        {jokeelements}
     </div>
 )
 }
-
-ReactDOM.render(<App/>,document.getElementById("root2"))
+ReactDOM.render(<App/>,document.getElementById("root1"))
